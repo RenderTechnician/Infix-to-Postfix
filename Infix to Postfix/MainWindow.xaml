@@ -1,0 +1,15 @@
+﻿<Window x:Class="Infix_to_Postfix.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Infix_to_Postfix"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Infix" HorizontalAlignment="Center" Height="53" Margin="10,97,10,269" TextWrapping="Wrap" VerticalAlignment="Center" Width="772" FontSize="30" TextAlignment="Center" BorderBrush="#FF0040FF" Background="#FFFFE3E3" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="Postfix" HorizontalAlignment="Center" Height="53" Margin="10,242,10,124" TextWrapping="Wrap" VerticalAlignment="Center" Width="772" FontSize="30" TextAlignment="Center" BorderBrush="#FF0040FF" Background="#FFFFE3E3"/>
+        <Label Content="Infix" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label Content="Postfix" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" FontSize="30"/>
+    </Grid>
+</Window>
